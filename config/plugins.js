@@ -3,8 +3,8 @@ module.exports = ({ env }) => ({
       enabled: true,
       config: {
         deployHook:
-          "https://api.vercel.com/v1/integrations/deploy/prj_<deploy-hook>",
-        apiToken: "WTmXl489iL0z4MSSPAjjP9Up",
+          "https://strapi-test-opal.vercel.app/",
+        apiToken: "prj_sdgTkmCcDvnknbSya6uVPAXzYdR7",
         appFilter: "strapi-test",
         teamFilter: "your-team-id-on-vercel",
         roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
